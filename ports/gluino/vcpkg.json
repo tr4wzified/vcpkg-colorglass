@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "gluino",
+  "version-string": "0.0.1",
+  "description": "A cutting-edge header-only utility library for C++ which extends the STL useful missing functionality.",
+  "homepage": "https://www.gitlab.com/colorglass/gluino",
+  "license": "Apache-2.0"
+}
