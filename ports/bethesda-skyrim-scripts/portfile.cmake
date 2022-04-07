@@ -11,6 +11,8 @@ else()
 endif()
 cmake_path(SET SkyrimPath ${RegistrySkyrimPath})
 
+set(VCPKG_POLICY_EMPTY_INCLUDE_FOLDER enabled)
+
 vcpkg_extract_source_archive(
     "${SkyrimPath}/Data/Scripts.zip"
 )

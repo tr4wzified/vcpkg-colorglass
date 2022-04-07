@@ -6,6 +6,8 @@ else()
 endif()
 cmake_path(SET FalloutPath ${RegistryFalloutPath})
 
+set(VCPKG_POLICY_EMPTY_INCLUDE_FOLDER enabled)
+
 vcpkg_extract_source_archive(
     "${FalloutPath}/Data/Scripts.zip"
 )

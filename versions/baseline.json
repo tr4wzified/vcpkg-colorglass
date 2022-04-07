@@ -6,11 +6,11 @@
         },
         "bethesda-fallout4-scripts": {
             "baseline": "1.10.163",
-            "port-version": 0
+            "port-version": 1
         },
         "bethesda-skyrim-scripts": {
             "baseline": "1.6.353",
-            "port-version": 0
+            "port-version": 1
         },
         "commonlibf4": {
             "baseline": "2021-12-24",
@@ -25,6 +25,10 @@
             "port-version": 0
         },
         "commonlibsse-ng-ae": {
+            "baseline": "2.0.0",
+            "port-version": 0
+        },
+        "commonlibsse-ng-prebuilt": {
             "baseline": "2.0.0",
             "port-version": 0
         },
@@ -45,7 +49,11 @@
             "port-version": 0
         },
         "fully-dynamic-game-engine": {
-            "baseline": "0.0.1",
+            "baseline": "0.3.0",
+            "port-version": 0
+        },
+        "fully-dynamic-game-engine-prebuilt": {
+            "baseline": "0.3.0",
             "port-version": 0
         },
         "gluino": {
@@ -54,6 +62,34 @@
         },
         "hoshi": {
             "baseline": "0.0.1",
+            "port-version": 0
+        },
+        "qtbase-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qtdeclarative-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qtmultimedia-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qtsvg-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qttools-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qtwebengine-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qtwebview-prebuilt": {
+            "baseline": "6.2.4",
             "port-version": 0
         },
         "script-extender-common": {
