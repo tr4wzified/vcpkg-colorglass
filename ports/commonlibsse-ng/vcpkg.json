@@ -1,6 +1,6 @@
 {
   "name": "commonlibsse-ng",
-  "version-string": "1.0.0",
+  "version-semver": "2.0.0",
   "description": "A fork of CommonLibSSE with advanced features for modern SKSE development, supporting portable plugins that work across AE, SE, and VR.",
   "homepage": "https://github.com/CharmedBaryon/CommonLibSSE",
   "license": "MIT",
