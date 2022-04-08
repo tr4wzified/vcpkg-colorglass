@@ -64,11 +64,27 @@
             "baseline": "0.0.1",
             "port-version": 0
         },
+        "openssl-prebuilt": {
+            "baseline": "3.0.2",
+            "port-version": 1
+        },
+        "pybind11-prebuilt": {
+            "baseline": "2.9.2",
+            "port-version": 0
+        },
+        "python3-prebuilt": {
+            "baseline": "3.10.2",
+            "port-version": 1
+        },
         "qtbase-prebuilt": {
             "baseline": "6.2.4",
             "port-version": 0
         },
         "qtdeclarative-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qtimageformats-prebuilt": {
             "baseline": "6.2.4",
             "port-version": 0
         },

@@ -6,6 +6,8 @@ vcpkg_from_github(
   HEAD_REF fudge-support
 )
 
+set(VCPKG_POLICY_EMPTY_PACKAGE enabled)
+
 vcpkg_configure_cmake(
   SOURCE_PATH "${SOURCE_PATH}"
   PREFER_NINJA

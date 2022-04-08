@@ -50,10 +50,14 @@ Several ports provide variants of CommonLibSSE, a static library for developing 
 
 `commonlibsse-ng` provides the Skyrim NG project's fork of CommonLibSSE ([CommonLibSSE NG](https://github.com/CharmedBaryon/CommonLibSSE-NG)). This tracks the upstream changes, but keeps the support for pre-AE Skyrim runtimes (commonly called simply "SE"), as well as adding some limited support for VR. This version of CommonLibSSE can make a runtime determination of which Skyrim executable is in use, allowing SKSE plugins that work across AE, SE and VR in one build. It only exposes functionality common to AE and SE. To get AE or SE specific features, you can use a build limited to supporting either with `commonlibsse-ng-ae` or `commonlibsse-ng-se`. `commonlibsse-ng-vr` is also available but has only limited improvements for VR over `commonlibsse-ng-se`. CommonLibSSE NG has semantic version numbers on its releases, starting with 1.0.0.
 
+Depending on your hardware, CommonLibSSE may take significant compile time. To save time you can use prebuilt versions of CommonLibSSE NG with the `commonlibsse-ng-prebuilt` package. This is available only for static linkage, in both static and dynamic CRT linkage versions. However, dynamic CRT linkage (e.g. with the `x64-windows-static-md` triplet) is strongly recommended for maximum compatibility.
+
 #### Fully Dynamic Game Engine ####
 [Fully Dynamic Game Engine](https://gitlab.com/colorglass/fully-dynamic-game-engine) (FuDGE) is a framework for development of Skyrim mods, including C++ SKSE plugins, Python SKSE plugins, Dymods, and enhanced Papyrus scripts. For C++ projects it enables more structured project development and a cleaner separation of concerns in large projects by providing an inversion of control style. It is available with the `fully-dynamic-game-engine-component`.
 
 FuDGE is available with 3 features, `trueflame`, `black-book`, and `hopesfire`. Trueflame is a static library for enhanced C++ project structure, and imposes no end-user dependencies. Black Book is FuDGE's shared library component, and offers more features such as Papyrus script objects, custom console commands, dymods, and a form database for reverse lookup of links between forms. Using it adds the requirement that end users of your project have installed Fully Dynamic Game Engine themselves into their mod list. Hopesfire is a second static library, which itself dynamically links to Black Book. It provides enhanced interfaces to Black Book. It is recommended that if you want the shared library functions of FuDGE, you simply link to Hopesfire rather than Black Book directly.
+
+Fully Dynamic Game Engine is available in prebuilt form with the `fully-dynamic-game-engine-prebuilt` port, with both static and dynamic CRT linkage. Dynamic linkage is strongly encouraged (e.g. with the `x64-windows-static-md` triplet) for maximum compatibility on it's statically-linked components, Trueflame and Hopesfire.
 
 #### SKSE ####
 [SKSE itself](https://github.com/ianpatt/skse64) can be built using this repository, if you wish to develop against it directly or need to include Papyrus development in your project and need its script sources. The `skse` package provides a build of the latest SKSE64 version. It includes two package features: `plugin` and `scripts`. The former builds the DLLs for SKSE, and the later will extract SKSE's extended versions of the Skyrim Papyrus script sources to a `contrib/papyrus/skse` directory under your `vcpkg_installed` folder, allowing their use in Papyrus development.
@@ -78,3 +82,15 @@ The `bethesda-fallout4-scripts` package will extract the vanilla Fallout 4 scrip
 * `hoshi`: A modern header-only, template-based localization system for C++20 and later.
 * `script-extender-common`: A utility library, used by SKSE and F4SE.
 * `tsl-hat-trie`: A highly efficient trie implementation, used in Fully Dynamic Game Engine.
+
+#### Prebuilt Libraries
+To save development time several libraries are available in prebuilt form.
+* `python3-prebuilt`: A prebuilt Python 3 port.
+* `pybind11-prebuilt`: A prebuilt Pybind11 library, based on the prebuilt Python 3 port.
+* `qtbase-prebuilt`: A prebuilt version of Qt 6 core; this is available only for dynamic linkage (although the Qt libraries themselves are compiled with static linkage) and with dynamic CRT linkage.
+* `qtdeclarative-prebuilt`: A prebuilt version of Qt 6 Quick 2; this is available only for dynamic linkage (although the Qt libraries themselves are compiled with static linkage) and with dynamic CRT linkage.
+* `qtimageformats-prebuilt`: A prebuilt version of Qt 6 image format plugins; this is available only for dynamic linkage (although the Qt libraries themselves are compiled with static linkage) and with dynamic CRT linkage.
+* `qtmultimedia-prebuilt`: A prebuilt version of Qt 6 multimedia support; this is available only for dynamic linkage (although the Qt libraries themselves are compiled with static linkage) and with dynamic CRT linkage.
+* `qtsvg-prebuilt`: A prebuilt version of Qt 6 SVG plugins; this is available only for dynamic linkage (although the Qt libraries themselves are compiled with static linkage) and with dynamic CRT linkage.
+* `qtwebengine-prebuilt`: A prebuilt version of Qt 6 Web Engine; this is available only for dynamic linkage (although the Qt libraries themselves are compiled with static linkage) and with dynamic CRT linkage.
+* `qtwebview-prebuilt`: A prebuilt version of the Qt 6 Web View controls; this is available only for dynamic linkage (although the Qt libraries themselves are compiled with static linkage) and with dynamic CRT linkage.
