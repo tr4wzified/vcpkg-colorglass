@@ -1,6 +1,6 @@
 {
   "name": "commonlibsse-ng-vr",
-  "version-semver": "2.0.0",
+  "version-semver": "2.1.0",
   "description": "An updated fork of CommonLibSSE; this build is non-portable (works only with Skyrim VR), but can use VR-exclusive features.",
   "homepage": "https://github.com/CharmedBaryon/CommonLibSSE",
   "license": "MIT",

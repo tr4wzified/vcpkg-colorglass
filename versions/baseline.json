@@ -21,23 +21,23 @@
             "port-version": 0
         },
         "commonlibsse-ng": {
-            "baseline": "2.0.0",
+            "baseline": "2.1.0",
             "port-version": 0
         },
         "commonlibsse-ng-ae": {
-            "baseline": "2.0.0",
+            "baseline": "2.1.0",
             "port-version": 0
         },
         "commonlibsse-ng-prebuilt": {
-            "baseline": "2.0.0",
+            "baseline": "2.1.0",
             "port-version": 0
         },
         "commonlibsse-ng-se": {
-            "baseline": "2.0.0",
+            "baseline": "2.1.0",
             "port-version": 0
         },
         "commonlibsse-ng-vr": {
-            "baseline": "2.0.0",
+            "baseline": "2.1.0",
             "port-version": 0
         },
         "commonlibvr": {
