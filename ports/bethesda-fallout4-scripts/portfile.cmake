@@ -7,6 +7,7 @@ endif()
 cmake_path(SET FalloutPath ${RegistryFalloutPath})
 
 set(VCPKG_POLICY_EMPTY_INCLUDE_FOLDER enabled)
+set(VCPKG_POLICY_EMPTY_PACKAGE enabled)
 
 vcpkg_extract_source_archive(
     "${FalloutPath}/Data/Scripts.zip"
@@ -19,9 +20,9 @@ file(GLOB GAME_FLAGS
     "${CURRENT_BUILDTREES_DIR}/src/Source/Scripts/*.flg"
 )
 
-file(INSTALL ${GAME_SCRIPTS}
+file(COPY ${GAME_SCRIPTS}
    DESTINATION "${CURRENT_PACKAGES_DIR}/contrib/papyrus/fallout4"
 )
-file(INSTALL ${GAME_FLAGS}
+file(COPY ${GAME_FLAGS}
    DESTINATION "${CURRENT_PACKAGES_DIR}/contrib/papyrus/fallout4"
 )

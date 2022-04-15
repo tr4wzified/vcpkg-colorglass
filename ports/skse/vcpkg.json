@@ -2,6 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
     "name": "skse",
     "version-string": "2.1.5",
+    "port-version": 1,
     "description": "Papyrus script sources for the Skyrim Script Extender (SKSE).",
     "homepage": "https://skse.silverlock.org/",
     "features": {

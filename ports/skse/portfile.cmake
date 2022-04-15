@@ -62,7 +62,7 @@ if (INSTALL_SCRIPTS)
     "${CURRENT_BUILDTREES_DIR}/src/skse64_2_01_05/Data/Scripts/Source/*.psc"
   )
 
-  file(INSTALL ${SKSE_SCRIPTS}
+  file(COPY ${SKSE_SCRIPTS}
        DESTINATION "${CURRENT_PACKAGES_DIR}/contrib/papyrus/skse"
   )
 

@@ -1,15 +1,18 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
-  REPO CharmedBaryon/CommonLibSSE
-  REF 61383c799cf5b408af2e3bb4e93d2eb74d65b6dd
-  SHA512 7fbca9ac0d55c5d771ef3ec94edef0441edbd0c42b635117572d9ffd7c6688b4eb52ed2c3f4018676cd16645415a5d8c525b77b95e6164a378f5d16c7eff3277
-  HEAD_REF dev-ng
+  REPO color-glass/CommonLibSSE
+  REF 6cd3c18bc60112d34f1f98b15b98d6f5a1728a2c
+  SHA512 7dbe9a77bf9b392e6ae14cd40a7d936d49508eebbf16c82284db9923c4475488db21a0341b36842694938f397fea7f140fc725cc9cb4167ebcf406da3f7ed1ad
+  HEAD_REF dev
+  PATCHES fmt_fix.patch
 )
+
+set(VCPKG_POLICY_EMPTY_PACKAGE enabled)
 
 vcpkg_configure_cmake(
   SOURCE_PATH "${SOURCE_PATH}"
   PREFER_NINJA
-  OPTIONS -DENABLE_SKYRIM_AE=off -DENABLE_SKYRIM_SE=off
+  OPTIONS "-DSKYRIM_SUPPORT_AE=on"
 )
 
 vcpkg_install_cmake()

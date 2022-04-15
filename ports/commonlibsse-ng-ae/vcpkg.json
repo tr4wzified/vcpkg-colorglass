@@ -1,7 +1,9 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
   "name": "commonlibsse-ng-ae",
-  "version-semver": "2.1.0",
-  "description": "An updated fork of CommonLibSSE; this build is non-portable (works only with Skyrim 1.6.x), but can use AE-exclusive features.",
+  "version-semver": "3.0.0",
+  "port-version": 0,
+  "description": "A fork of CommonLibSSE with advanced features for modern SKSE development, supporting portable plugins that work across AE, SE, and VR.",
   "homepage": "https://github.com/CharmedBaryon/CommonLibSSE",
   "license": "MIT",
   "supports": "windows & x64",
