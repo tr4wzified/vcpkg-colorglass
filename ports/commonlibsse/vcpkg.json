@@ -1,6 +1,6 @@
 {
   "name": "commonlibsse",
-  "version-string": "2022-01-30",
+  "version-string": "2022-04-09",
   "description": "A reverse engineered resource for developing F4SE plugins for Skyrim Special Edition",
   "homepage": "https://github.com/Ryan-rsm-McKenzie/CommonLibSSE",
   "license": "MIT",
