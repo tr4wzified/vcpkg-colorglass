@@ -61,11 +61,7 @@
             "port-version": 0
         },
         "fully-dynamic-game-engine": {
-            "baseline": "0.3.0",
-            "port-version": 0
-        },
-        "fully-dynamic-game-engine-prebuilt": {
-            "baseline": "0.3.0",
+            "baseline": "0.2.0",
             "port-version": 0
         },
         "gluino": {

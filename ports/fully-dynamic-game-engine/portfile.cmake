@@ -7,8 +7,8 @@ vcpkg_from_gitlab(
   GITLAB_URL https://gitlab.com
   OUT_SOURCE_PATH SOURCE_PATH
   REPO colorglass/fully-dynamic-game-engine
-  REF 211baf98cd898351d6ffb1d25f1296bcf33f8f0f
-  SHA512 2822cc7124f3f1aee6f93ce5da1d2d3745e602681dc76cb06034f84a2e57cb15627c4258c32b32036b668e3fe2cb0866a17a58653c96cdc87cc2a4d1421ed30f
+  REF fba85e2f1af40893678b253cfaffb5fb5ae04b3c
+  SHA512 a5eedb7e52cddd0064c1646a52073648b3d6f955a36edb335eeb13eecc89ad5e939febd37d8a51dbf11983b0fdae8325415aa5bf81d312ae91c6ca11c337f428
   HEAD_REF main
 )
 
