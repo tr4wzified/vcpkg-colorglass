@@ -1,15 +1,15 @@
 vcpkg_from_github(
-  OUT_SOURCE_PATH SOURCE_PATH
-  REPO CharmedBaryon/CommonLibSSE
-  REF 26fb2a29ca415845f3dafbeb60e21b171938a02d
-  SHA512 e4d2331fba332386fb058e033bc232ecb937c6c8d7886767dcb614da1b8eac3ab71dd87d7de054d70dc484e8887a75f09a87bd9e4d50f299e27a3f37ea966c12
-  HEAD_REF dev-ng
+        OUT_SOURCE_PATH SOURCE_PATH
+        REPO CharmedBaryon/CommonLibSSE
+        REF 6127c9484b46d3d75783b3cdb4b0837f81aebaef
+        SHA512 6e2ed852a362c20a90bba28857a94c02a5532659804f119d6ac46373f0654ee8ca973bf54f149c39d7c519ae7cd5ea866ba5a63efda3bebdf51ecf398adb00c8
+        HEAD_REF dev-ng
 )
 
 vcpkg_configure_cmake(
-  SOURCE_PATH "${SOURCE_PATH}"
-  PREFER_NINJA
-  OPTIONS -DENABLE_SKYRIM_VR=off -DENABLE_SKYRIM_SE=off
+        SOURCE_PATH "${SOURCE_PATH}"
+        PREFER_NINJA
+        OPTIONS -DENABLE_SKYRIM_VR=off -DENABLE_SKYRIM_SE=off
 )
 
 vcpkg_install_cmake()
@@ -23,6 +23,6 @@ file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/share/CommonLibSSE/CommonLibSSE")
 
 file(
-  INSTALL "${SOURCE_PATH}/LICENSE"
-  DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}"
-  RENAME copyright)
+        INSTALL "${SOURCE_PATH}/LICENSE"
+        DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}"
+        RENAME copyright)

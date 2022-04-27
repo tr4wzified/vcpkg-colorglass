@@ -1,6 +1,6 @@
 {
   "name": "commonlibsse-po3-ae",
-  "version-string": "2022-04-15",
+  "version-date": "2022-04-26",
   "description": "A reverse engineered resource for developing F4SE plugins for Skyrim Special Edition",
   "homepage": "https://github.com/powerof3/CommonLibSSE",
   "license": "MIT",
@@ -13,7 +13,6 @@
     "boost-stl-interfaces",
     "fmt",
     "rsm-binary-io",
-    "spdlog",
-    "xbyak"
+    "spdlog"
   ]
 }

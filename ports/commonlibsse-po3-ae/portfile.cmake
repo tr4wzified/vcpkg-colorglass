@@ -1,18 +1,17 @@
 vcpkg_from_github(
-  OUT_SOURCE_PATH SOURCE_PATH
-  REPO color-glass/CommonLibSSE
-  REF 6cd3c18bc60112d34f1f98b15b98d6f5a1728a2c
-  SHA512 7dbe9a77bf9b392e6ae14cd40a7d936d49508eebbf16c82284db9923c4475488db21a0341b36842694938f397fea7f140fc725cc9cb4167ebcf406da3f7ed1ad
-  HEAD_REF dev
-  PATCHES fmt_fix.patch
+        OUT_SOURCE_PATH SOURCE_PATH
+        REPO color-glass/CommonLibSSE
+        REF 4133d5bcbd9b4dd5295e4a6b8b07a70ef2400a40
+        SHA512 3a43625a610a0c9a27b712ec74061a20aa2fa8654258586bac90c6185f46444aa22c8d0e8908685799ae5583d288c3bf037ff28f6bd2af3f7c61f11721aa3390
+        HEAD_REF dev
 )
 
 set(VCPKG_POLICY_EMPTY_PACKAGE enabled)
 
 vcpkg_configure_cmake(
-  SOURCE_PATH "${SOURCE_PATH}"
-  PREFER_NINJA
-  OPTIONS "-DSKYRIM_SUPPORT_AE=on"
+        SOURCE_PATH "${SOURCE_PATH}"
+        PREFER_NINJA
+        OPTIONS "-DSKYRIM_SUPPORT_AE=on"
 )
 
 vcpkg_install_cmake()
@@ -26,6 +25,6 @@ file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/share/CommonLibSSE/CommonLibSSE")
 
 file(
-  INSTALL "${SOURCE_PATH}/LICENSE"
-  DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}"
-  RENAME copyright)
+        INSTALL "${SOURCE_PATH}/LICENSE"
+        DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}"
+        RENAME copyright)
