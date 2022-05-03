@@ -21,35 +21,35 @@
             "port-version": 0
         },
         "commonlibsse-ng": {
-            "baseline": "3.2.1",
+            "baseline": "3.2.2",
             "port-version": 0
         },
         "commonlibsse-ng-ae": {
-            "baseline": "3.2.1",
+            "baseline": "3.2.2",
             "port-version": 0
         },
         "commonlibsse-ng-flatrim": {
-            "baseline": "3.2.1",
+            "baseline": "3.2.2",
             "port-version": 0
         },
         "commonlibsse-ng-prebuilt": {
-            "baseline": "3.2.1",
+            "baseline": "3.2.2",
             "port-version": 0
         },
         "commonlibsse-ng-se": {
-            "baseline": "3.2.1",
+            "baseline": "3.2.2",
             "port-version": 0
         },
         "commonlibsse-ng-vr": {
-            "baseline": "3.2.1",
+            "baseline": "3.2.2",
             "port-version": 0
         },
         "commonlibsse-po3-ae": {
-            "baseline": "2022-04-26",
+            "baseline": "2022-05-03",
             "port-version": 0
         },
         "commonlibsse-po3-se": {
-            "baseline": "2022-04-26",
+            "baseline": "2022-05-03",
             "port-version": 0
         },
         "commonlibvr": {

@@ -1,9 +1,9 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO CharmedBaryon/CommonLibSSE
-        REF 6127c9484b46d3d75783b3cdb4b0837f81aebaef
-        SHA512 6e2ed852a362c20a90bba28857a94c02a5532659804f119d6ac46373f0654ee8ca973bf54f149c39d7c519ae7cd5ea866ba5a63efda3bebdf51ecf398adb00c8
-        HEAD_REF dev-ng
+        REF 882880813dc38fe3fc78ee5d0f80a1aba3976457
+        SHA512 7230ed7ba5e126af03960bcaa60f79bc5f21b856d1b40d44cca94e4e0f0c43a55ed0b347f0b94928562204dbedb4e36333fc142f78f4b12629235a2b8f83d75a
+        HEAD_REF main
 )
 
 vcpkg_configure_cmake(

@@ -1,9 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
   "name": "commonlibsse-ng-se",
-  "version-semver": "3.2.1",
+  "version-semver": "3.2.2",
   "port-version": 0,
-  "description": "A fork of CommonLibSSE with advanced features for modern SKSE development, supporting portable plugins that work across AE, SE, and VR.",
+  "description": "A reverse engineered resource for developing SKSE plugins, supporting portable plugins that work across AE, SE, and VR.",
   "homepage": "https://github.com/CharmedBaryon/CommonLibSSE",
   "license": "MIT",
   "supports": "windows & x64",
@@ -15,6 +15,7 @@
     "boost-stl-interfaces",
     "fast-cpp-csv-parser",
     "fmt",
+    "rsm-binary-io",
     "spdlog"
   ]
 }
