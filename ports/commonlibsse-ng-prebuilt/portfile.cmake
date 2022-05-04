@@ -1,14 +1,14 @@
 if (VCPKG_CRT_LINKAGE STREQUAL dynamic)
   vcpkg_download_distfile(COMMONLIB_DISTRO
-      URLS "https://github.com/CharmedBaryon/CommonLibSSE-NG/releases/download/v3.2.2/commonlibsse-ng_x64-windows-static-md_3.2.2_0.7z"
+      URLS "https://github.com/CharmedBaryon/CommonLibSSE-NG/releases/download/v3.2.3/commonlibsse-ng_x64-windows-static-md_3.2.3_0.7z"
       FILENAME commonlibsse.zip
-      SHA512 a037b4f83d2599e97ecd190f3555a946c76e439e3642f2f060d58362fe0ad53785ed4fdf66b6c7ce1bfce606f2af64f1f35d4480181eec39872d095117f0cf49
+      SHA512 a861e17381511aa576cb2a8cf60bc036f074ba66926358e1d18abe43c1f6a550dc0a23e193adafea2659b6c56c3316245381d112eb5e6ab4830963989e5a2435
   )
 else ()
   vcpkg_download_distfile(COMMONLIB_DISTRO
-      URLS "https://github.com/CharmedBaryon/CommonLibSSE-NG/releases/download/v3.2.2/commonlibsse-ng_x64-windows-static_3.2.2_0.7z"
+      URLS "https://github.com/CharmedBaryon/CommonLibSSE-NG/releases/download/v3.2.3/commonlibsse-ng_x64-windows-static_3.2.3_0.7z"
       FILENAME commonlibsse.zip
-      SHA512 a5b1d676a978a831c6d1e6572e8536346bbfb0b8ca86d0c604ac770c7d1d0d834e6f5c05bb94f9c895e920ed41194e53ba3722704a2b1a3b76cc3c7f03f19d46
+      SHA512 a24af942f6f23cc12c39f9c20a75a0ceda15c7ae475f6e3cf3d610cdac6917db5481e429c2331fcd283a2fe2026734766122bf6a59f5693a92e92418b0fe9607
   )
 endif ()
 
