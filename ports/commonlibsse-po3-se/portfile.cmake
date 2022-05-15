@@ -1,8 +1,8 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO color-glass/CommonLibSSE
-        REF 7c4b38dd21e59f0f39f3abe110a42ddb8c7c47d7
-        SHA512 3d6d949f33f03d84a274cc10566ab5b8ac33f0cbbf7fba255dcb3991a2550ba85e790648a5dc3b3dfb09a8bcd3fe5b5ae2b83d38d24198cc1723733b5ed23c5b
+        REF 2fc6a7a8c407fc1b59bb19b941b1d2e1646dd12e
+        SHA512 e5d9cf1470c5c7780fe8d9ece0cbaffd3fa0a63a768d0edd7622591321954eeba0f426a082cc50e6ecb5c5e3011c70aa57c8b622b42a136ef691a6cb1e011a84
         HEAD_REF dev
 )
 

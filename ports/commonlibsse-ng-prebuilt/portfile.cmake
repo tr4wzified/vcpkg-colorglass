@@ -19,3 +19,5 @@ vcpkg_extract_source_archive(
 )
 
 file(REMOVE "${CURRENT_PACKAGES_DIR}/commonlibsse.zip.extracted")
+
+message(DEPRECATION "CommonLibSSE NG prebuilds are no longer supported. Switch to `commonlibsse-ng` to get new releases.")
