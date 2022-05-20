@@ -1,8 +1,8 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO alandtse/CommonLibVR
-        REF 3b265e1ddb8f8f8a7e6f54464b8cdf0badcf217f
-        SHA512 99cb109da93719dd8072cdfa4917baea117480fec452804d1c05f33a4f1132d85196956a4444462e2b69e9acf34c3b7b596bc67f24357ae1f5c00d8262fc073d
+        REF 193d421dfe90f0e030dcb68171b0694eabb1f66a
+        SHA512 2bb39cc589bc102380424806fd34fabaad64be28ca4eeb5f404d5235aaec2070aa3aff18b4601e0e5202b51ae79b0ea6ae65d53a84a58aab767bdeac1d314252
         HEAD_REF vr
 )
 

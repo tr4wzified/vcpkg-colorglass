@@ -1,6 +1,6 @@
 {
   "name": "commonlibvr",
-  "version-string": "2022-05-13",
+  "version-string": "2022-05-15",
   "description": "A reverse engineered resource for developing SKSE plugins for Skyrim Special Edition/VR",
   "homepage": "https://github.com/alandtse/CommonLibVR",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "name": "commonlibsse-po3-ae",
-  "version-date": "2022-05-12",
-  "port-version": 1,
+  "version-date": "2022-05-17",
+  "port-version": 0,
   "description": "A reverse engineered resource for developing SKSE plugins for Skyrim Special Edition",
   "homepage": "https://github.com/powerof3/CommonLibSSE",
   "license": "MIT",
