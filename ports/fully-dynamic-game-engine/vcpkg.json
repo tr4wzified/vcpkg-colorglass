@@ -1,7 +1,8 @@
 {
     "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
     "name": "fully-dynamic-game-engine",
-    "version-string": "0.2.0",
+    "version-semver": "0.3.0",
+    "port-version": 0,
     "description": "Static library of supplemental utility features for SKSE64/CommonLibSSE plugin developers.",
     "homepage": "https://www.skyrimng.com",
     "license": "Apache-2.0",
@@ -17,13 +18,13 @@
             "description": "Builds the Trueflame library for high level development on raw SKSE/CommonLibSSE.",
             "dependencies": [
                 "articuno",
-                "commonlibsse",
-                "detours",
+                "commonlibsse-ng",
                 "efsw",
                 "gluino",
                 "hoshi",
                 "metrohash",
-                "spdlog"
+                "spdlog",
+                "srell"
             ]
         },
         "black-book": {
@@ -38,6 +39,10 @@
                     ]
                 },
                 "boost-stacktrace",
+                {
+                    "host": true,
+                    "name": "commonlibsse-ng"
+                },
                 "cpp-peglib",
                 {
                     "name": "fully-dynamic-game-engine",
@@ -48,9 +53,14 @@
                 },
                 "inja",
                 "lua",
+                "openvr",
                 "pcg",
-                "python3",
                 "pybind11",
+                "qtdeclarative",
+                "qtimageformats",
+                "qtshadertools",
+                "qtmultimedia",
+                "qtsvg",
                 "tsl-hat-trie",
                 "tsl-ordered-map"
             ]
@@ -72,6 +82,8 @@
         }
     },
     "default-features": [
+        "trueflame",
+        "black-book",
         "black-book-scripts",
         "hopesfire"
     ]

@@ -1,7 +1,8 @@
 {
     "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
     "name": "articuno",
-    "version-string": "0.0.1",
+    "version-semver": "0.0.1",
+    "port-version": 1,
     "description": "A modern serialization framework for C++ built with modern, cutting-edge C++ support, and support for mapping to existing, arbitrary schemas for standard human-readable and binary formats.",
     "homepage": "https://www.gitlab.com/colorglass/articuno",
     "license": "Apache-2.0",
