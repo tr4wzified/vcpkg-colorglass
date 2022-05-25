@@ -2,7 +2,7 @@
     "default": {
         "articuno": {
             "baseline": "0.0.1",
-            "port-version": 1
+            "port-version": 2
         },
         "bethesda-fallout4-scripts": {
             "baseline": "1.10.163",
