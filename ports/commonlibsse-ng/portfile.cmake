@@ -1,8 +1,8 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO CharmedBaryon/CommonLibSSE
-        REF abab81132d47e9688a203e3253718a3c694d5a86
-        SHA512 0263f5725e82498f5f8bd8465e895bcab4fcb01bbd1e8194671b4c9444aa0ed34d2fa2980cad631b0c6ccd4f65f2e58936af4dc36c09b4fbece9a56a5a258848
+        REF ee1775eccf688b7272224a2804f0a881749eb3a6
+        SHA512 0faa98ae37c388c3e1ea5d7b32e7858b6e122ba5844b7cd089f3c04b2dc1fa9a48df6a1c5c199ac0403453af957226de3e8f31ca66146fe33325e66b6d2b9fdc
         HEAD_REF main
 )
 
@@ -18,6 +18,7 @@ vcpkg_copy_pdbs()
 
 file(GLOB CMAKE_CONFIGS "${CURRENT_PACKAGES_DIR}/share/CommonLibSSE/CommonLibSSE/*.cmake")
 file(INSTALL ${CMAKE_CONFIGS} DESTINATION "${CURRENT_PACKAGES_DIR}/share/CommonLibSSE")
+file(INSTALL "${SOURCE_PATH}/cmake/CommonLibSSE.cmake" DESTINATION "${CURRENT_PACKAGES_DIR}/share/CommonLibSSE")
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/share/CommonLibSSE/CommonLibSSE")
