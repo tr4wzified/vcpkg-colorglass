@@ -26,11 +26,11 @@
         },
         "commonlibsse-ng-ae": {
             "baseline": "3.4.0",
-            "port-version": 0
+            "port-version": 1
         },
         "commonlibsse-ng-flatrim": {
             "baseline": "3.4.0",
-            "port-version": 0
+            "port-version": 1
         },
         "commonlibsse-ng-prebuilt": {
             "baseline": "3.2.3",
@@ -38,11 +38,11 @@
         },
         "commonlibsse-ng-se": {
             "baseline": "3.4.0",
-            "port-version": 0
+            "port-version": 1
         },
         "commonlibsse-ng-vr": {
             "baseline": "3.4.0",
-            "port-version": 0
+            "port-version": 1
         },
         "commonlibsse-po3-ae": {
             "baseline": "2022-05-17",
