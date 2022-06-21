@@ -18,19 +18,19 @@
         },
         "commonlibsse": {
             "baseline": "2022-04-09",
-            "port-version": 0
+            "port-version": 1
         },
         "commonlibsse-ng": {
             "baseline": "3.4.0",
-            "port-version": 0
+            "port-version": 1
         },
         "commonlibsse-ng-ae": {
             "baseline": "3.4.0",
-            "port-version": 1
+            "port-version": 2
         },
         "commonlibsse-ng-flatrim": {
             "baseline": "3.4.0",
-            "port-version": 1
+            "port-version": 2
         },
         "commonlibsse-ng-prebuilt": {
             "baseline": "3.2.3",
@@ -38,23 +38,23 @@
         },
         "commonlibsse-ng-se": {
             "baseline": "3.4.0",
-            "port-version": 1
+            "port-version": 2
         },
         "commonlibsse-ng-vr": {
             "baseline": "3.4.0",
-            "port-version": 1
+            "port-version": 2
         },
         "commonlibsse-po3-ae": {
             "baseline": "2022-05-17",
-            "port-version": 0
+            "port-version": 1
         },
         "commonlibsse-po3-se": {
             "baseline": "2022-05-17",
-            "port-version": 0
+            "port-version": 1
         },
         "commonlibvr": {
             "baseline": "2022-05-20",
-            "port-version": 0
+            "port-version": 1
         },
         "f4se": {
             "baseline": "0.6.21",

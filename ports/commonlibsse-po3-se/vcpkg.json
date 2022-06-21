@@ -1,7 +1,8 @@
 {
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
     "name": "commonlibsse-po3-se",
     "version-date": "2022-05-17",
-    "port-version": 0,
+    "port-version": 1,
     "description": "A reverse engineered resource for developing SKSE plugins for Skyrim Special Edition",
     "homepage": "https://github.com/powerof3/CommonLibSSE",
     "license": "MIT",
@@ -14,7 +15,8 @@
       "boost-stl-interfaces",
       "fmt",
       "rsm-binary-io",
-      "spdlog"
+      "spdlog",
+      "xbyak"
     ]
   }
   

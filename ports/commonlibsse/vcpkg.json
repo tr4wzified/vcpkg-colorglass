@@ -1,6 +1,8 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
   "name": "commonlibsse",
-  "version-string": "2022-04-09",
+  "version-date": "2022-04-09",
+  "port-version": 1,
   "description": "A reverse engineered resource for developing SKSE plugins for Skyrim Special Edition",
   "homepage": "https://github.com/Ryan-rsm-McKenzie/CommonLibSSE",
   "license": "MIT",
